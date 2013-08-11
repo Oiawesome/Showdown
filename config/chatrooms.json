@@ -1,0 +1,6 @@
+[
+{"title":"Lobby","autojoin":true},
+{"title":"Staff","isPrivate":true,"staffRoom":true,"staffAutojoin":true},
+{"title":"Swalot"},
+{"title":"Dragon Wing League","auth":{"spbman1234":"#","oiawesome":"+"}}
+]
