@@ -4,25 +4,25 @@
 }
  
 .sunweather, .sunnydayweather {
-background: url(http://www.nasa.gov/images/content/706436main_20121114-304-193Blend_M6-orig_full.jpg) no-repeat scroll left top;
+background: url(http://i299.photobucket.com/albums/mm296/seiofossiqui/animated_sun_small2.gif) no-repeat scroll left top;
     opacity: 1 !important;
         background-size: cover;
   }
 
 .rainweather, .raindanceweather {
-background: url(http://www.poweredbypeanutbutter.com/wp-content/uploads/2011/11/rain1.jpg) no-repeat scroll left top;
+background: url(http://d75822.medialib.glogster.com/media/a8/a8e9ead951c811bd8cce1a87967d5dc08ef7f14b852741daaefee0ab723ee62e/sea-rain-drops-fall-gif.gif) no-repeat scroll left top;
     opacity: 1 !important;
         background-size: cover;
   }
   
 .hailweather {
-background: url(http://www.hdwallpapersinn.com/wp-content/uploads/2013/01/Snowstorm-2.jpg) no-repeat scroll left top;
+background: url(http://media2.giphy.com/media/6hh74oeW6aXUQ/original.gif) no-repeat scroll left top;
     opacity: 1 !important;
         background-size: cover;
   }
 
 .sandstormweather {
-background: url(http://www.mccullagh.org/db9/1ds-4/sandstorm-sahara-desert.jpg) no-repeat scroll left top;
+background: url(http://www.france24.com/en/files/element_multimedia/image/desert.gif) no-repeat scroll left top;
     opacity: 1 !important;
         background-size: cover;
   }
