@@ -43,8 +43,8 @@ exports.BattleAbilities = {
 				this.boost({spa:1}, source);
 			}
 		},
-		id: "moxie",
-		name: "Moxie",
+		id: "exterminate",
+		name: "Exterminate",
 		rating: 4,
 		num: 1002
 	},
