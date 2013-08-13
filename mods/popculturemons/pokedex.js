@@ -5,3 +5,6 @@ megamanfire:{num:800,species:"Megaman-Fire",basespecies:"Megaman",forme:"Fire",f
 goku:{num:801,species:"Goku",types:["Fighting","Saiyan"],gender:"N",baseStats:{hp:73,atk:145,def:65,spa:145,spd:65,spe:135},abilities:{0:"Moxie",DW:"Iron Fist"},heightm:1.5,weightkg:82.5,color:"Purple",eggGroups:["No Eggs"],otherFormes:["gokusupersaiyan"]},
 gokusupersaiyan:{num:801,species:"Goku-Super-Saiyan",basespecies:"Goku",forme:"Super-Saiyan",formeletter:"S",types:["Fighting","Saiyan"],gender:"N",baseStats:{hp:60,atk:160,def:55,spa:160,spd:55,spe:130},abilities:{0:"Moxie",DW:"Iron Fist"},heightm:1.5,weightkg:82.5,color:"Purple",eggGroups:["No Eggs"]}
 };
+/*raiden:{num:802,species:"Raiden",types:["Techno","Fighting"],gender:"N",baseStats:{hp:85,atk:140,def:90,spa:65,spd:80,spe:150},abilities:{0:"Moxie",1:"No Guard",DW:"Revengance"},heightm:2.2,weightkg:80,color:"Brown",eggGroups:["Monster"]},
+metaknight:{num:115,species:"Meta-Knight",types:["Dark","Flying"],gender:"F",baseStats:{hp:75,atk:120,def:80,spa:40,spd:80,spe:90},abilities:{0:"Early Bird",1:"Scrappy",DW:"Inner Focus"},heightm:2.2,weightkg:80,color:"Brown",eggGroups:["Monster"]},*/
+
