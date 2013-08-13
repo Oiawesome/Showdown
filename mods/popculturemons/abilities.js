@@ -60,5 +60,26 @@ exports.BattleAbilities = {
 		name: "Saiyan Soul",
 		rating: 3,
 		num: 1003
-	}	
+	},
+	"revengance": {
+		desc: "Attack and Special Attack are halved when HP is less than half.",
+		shortDesc: "When this Pokemon has 1/2 or less of its max HP, its Attack and Sp. Atk are halved.",
+		onModifyAtk: function(atk, pokemon) {
+			if (pokemon.hp < pokemon.maxhp/4) {
+				return atk * 1.5;
+			}
+		},
+		onModifySpA: function(atk, pokemon) {
+			if (pokemon.hp < pokemon.maxhp/4) {
+				return spe * 1.5;
+			}
+		},
+		onResidual: function(pokemon) {
+			pokemon.update();
+		},
+		id: "revengance",
+		name: "Revengance",
+		rating: 4,
+		num: 1004
+	},	
 };  
