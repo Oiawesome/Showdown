@@ -81,5 +81,5 @@ exports.BattleAbilities = {
 		name: "Revengance",
 		rating: 4,
 		num: 1004
-	},	
+	}	
 };  
