@@ -51,6 +51,7 @@ exports.BattleFormats = {
 		effectType: 'Format',
 		rated: true,
 		challengeShow: true,
+		searchShow: true,
 		isTeambuilderFormat: true,
 		ruleset: ['Pokemon', 'Team Preview', 'HP Percentage Mod'],
 		banlist: ['Illegal', 'Unreleased'],
@@ -62,7 +63,10 @@ exports.BattleFormats = {
 
 		effectType: 'Format',
 		maxLevel: 5,
+		rated: true,
 		challengeShow: true,
+		searchShow: true,
+		isTeambuilderFormat: true,
 		ruleset: ['Pokemon', 'Standard', 'Team Preview', 'Little Cup'],
 		banlist: ['Sonicboom', 'Dragon Rage', 'Berry Juice', 'Soul Dew']
 	},
@@ -72,7 +76,10 @@ exports.BattleFormats = {
 
 		effectType: 'Format',
 		maxLevel: 5,
+		rated: true,
 		challengeShow: true,
+		searchShow: true,
+		isTeambuilderFormat: true,
 		ruleset: ['LC'],
 		banlist: ['Abra', 'Aipom', 'Archen', 'Axew', 'Bronzor', 'Chinchou', 'Clamperl', 'Cottonee', 'Cranidos', 'Croagunk', 'Diglett', 'Dratini', 'Drifloon', 'Drilbur', 'Dwebble', 'Elekid', 'Ferroseed', 'Foongus', 'Frillish', 'Gastly', 'Hippopotas', 'Houndour', 'Koffing', 'Larvesta', 'Lileep', 'Machop', 'Magnemite', 'Mienfoo', 'Misdreavus', 'Murkrow', 'Onix', 'Pawniard', 'Ponyta', 'Porygon', 'Riolu', 'Sandshrew', 'Scraggy', 'Shellder', 'Slowpoke', 'Snover', 'Staryu', 'Timburr', 'Tirtouga']
 	},
@@ -81,7 +88,9 @@ exports.BattleFormats = {
 		section: "Other Metagames",
 
 		effectType: 'Format',
+		rated: true,
 		challengeShow: true,
+		searchShow: true,
 		isTeambuilderFormat: true,
 		ruleset: ['Pokemon', 'Standard DW', 'Team Preview'],
 		banlist: []
@@ -101,7 +110,7 @@ exports.BattleFormats = {
 	},
 	stabmons: {
 		name: "STABmons",
-		section: "OM of the Month(Perma)",
+		section: "OM of the Month",
 
 		effectType: 'Format',
 		rated: true,
@@ -117,7 +126,7 @@ exports.BattleFormats = {
 	},
 	stabmonslc: {
 		name: "STABmons Little Cup",
-		section: "OM of the Month(Perma)",
+		section: "OM of the Month",
 
 		effectType: 'Format',
 		maxLevel: 5,
@@ -125,7 +134,7 @@ exports.BattleFormats = {
 		challengeShow: true,
 		searchShow: true,
 		isTeambuilderFormat: true,
-		ruleset: ['Pokemon', 'Standard', 'Team Preview', 'Little Cup'],
+		ruleset: ['Pokemon', 'Standard', 'Evasion Abilities Clause', 'Little Cup'],
 		banlist: ['Drizzle ++ Swift Swim', 'Soul Dew', 'Soul Dew',
 			'Mewtwo', 'Lugia', 'Ho-Oh', 'Blaziken', 'Kyogre', 'Groudon', 'Rayquaza', 'Deoxys', 'Deoxys-Attack', 'Dialga', 'Palkia', 'Giratina', 'Giratina-Origin', 'Manaphy', 'Shaymin-Sky',
 			'Arceus', 'Arceus-Bug', 'Arceus-Dark', 'Arceus-Dragon', 'Arceus-Electric', 'Arceus-Fighting', 'Arceus-Fire', 'Arceus-Flying', 'Arceus-Ghost', 'Arceus-Grass', 'Arceus-Ground', 'Arceus-Ice', 'Arceus-Poison', 'Arceus-Psychic', 'Arceus-Rock', 'Arceus-Steel', 'Arceus-Water',
