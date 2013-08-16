@@ -95,19 +95,6 @@ exports.BattleFormats = {
 		ruleset: ['Pokemon', 'Standard DW', 'Team Preview'],
 		banlist: []
 	},
-	reversetiershift: {
-		name: "Reverse Tier Shift",
-		section: 'Other Metagames',
-
-		mod: 'reversetiershift',
-		effectType: 'Format',
-		rated: true,
-		challengeShow: true,
-		searchShow: true,
-		isTeambuilderFormat: true,
-		ruleset: ['Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview'],
-		banlist: ['Uber', 'Drizzle ++ Swift Swim', 'Soul Dew']
-	},
 	tiershift: {
 		name: "Tier Shift",
 		section: 'Other Metagames',
